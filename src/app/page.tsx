@@ -14,7 +14,7 @@ const Home = () => {
   }
  
   return (
-    <div className={styles.pageCenter}>
+    <div className={styles.main}>
       <form onSubmit={handleSubmit}>
         <div><input type="text" placeholder="username" /></div>
         <div><input type="password" placeholder="password" /></div>
