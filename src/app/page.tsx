@@ -23,7 +23,7 @@ const Home = () => {
         <Turnstile
           id='turnstile-1'
           ref={refTurnstile}
-          siteKey='YOUR_SITE_KEY'
+          siteKey='0x4AAAAAAAaeo3NWpFN-OuQu'
           onSuccess={() => setCanSubmit(true)}
         />
       </form>
